@@ -1,0 +1,22 @@
+{
+  "name": "mern-shopping-cart",
+  "version": "1.0.0",
+  "description": "MERN shopping car app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shayeps/ProShop.git"
+  },
+  "author": "Shay Epstein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shayeps/ProShop/issues"
+  },
+  "homepage": "https://github.com/Shayeps/ProShop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
