@@ -15,7 +15,7 @@ const ProductScreen = ({ match }) => {     //match comes from react-router-dom -
         }
 
         fetchProduct();
-    }, []);
+    }, [match.params.id]);
 
     return (
         <>
